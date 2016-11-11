@@ -298,7 +298,7 @@ Laravel 会自动生成一个 CSRF token 给每个用户的 Session。该 token 
     class VerifyCsrfToken extends BaseVerifier
     {
         /**
-         * URIs 应被 CSRF 验证执行。
+         * 代码中写的是"The URIs that should be excluded from CSRF verification.",因此这里应改为:不会被CSRF验证的URIs
          *
          * @var array
          */
